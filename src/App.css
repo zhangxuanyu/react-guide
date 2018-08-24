@@ -1,0 +1,205 @@
+@import '~antd/dist/antd.css';
+body{
+	font-family: "微软雅黑" !important; 
+}
+#antd-main::-webkit-scrollbar {
+	width: 0px;
+	height: 0px;
+}
+
+.sider {
+	overflow: auto, ;
+	height: 82vh;
+	position: fixed;
+	background: #fff;
+	left: 0
+}
+
+.menu {
+	height: 81vh;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+.menu::-webkit-scrollbar {
+	width: 0px;
+	height: 0px;
+}
+
+.userhead {
+	margin-top: 10px;
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	background: #fff;
+	display: inline-block;
+	line-height: 48px;
+	color: #000;
+}
+
+.logo {
+	font-size: 12px;
+	text-align: center;
+	color: #000;
+	background: #fff;
+	height: 10vh;
+	line-height: 50px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	/*box-shadow: 0px 2px 6px #f0f1f2*/
+}
+.loading{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height:90vh;
+	font-size:40px;
+}
+.progress{
+	height:2px;
+	background: #1890FF;
+	width:0%;
+	position:fixed;
+	top:0;
+	z-index:9999999;
+}
+.placeholder{
+	color:#999;
+	padding-bottom:6px;
+	display:inline-block;
+	font-size:12px;
+}
+.must:after{
+	content:'*';
+	color:red
+}
+.ant-select-group__prepend {
+	height: 32px;
+	line-height: 32px;
+	display: block;
+	border-radius: 4px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	box-sizing: border-box;
+	font-size: 12px;
+	background: #f5f7fa;
+	padding: 0 7px;
+	color: #909399;
+	border: 1px solid #dcdfe6;
+	border-right: 0;
+	float: left;
+	text-align: center;
+}
+.list .ant-select-selection{
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ant-input-group-addon {
+	font-size: 12px !important;
+}
+.ant-btn {
+	font-size: 12px;
+}
+.ant-menu-vertical .ant-menu-item,
+.ant-menu-vertical-left .ant-menu-item,
+.ant-menu-vertical-right .ant-menu-item,
+.ant-menu-inline .ant-menu-item,
+.ant-menu-vertical .ant-menu-submenu-title,
+.ant-menu-vertical-left .ant-menu-submenu-title,
+.ant-menu-vertical-right .ant-menu-submenu-title,
+.ant-menu-inline .ant-menu-submenu-title{
+	font-size:12px;
+}
+.ant-breadcrumb{
+	font-size:12px
+}
+.ant-input{
+	font-size:12px !important;
+}
+.ant-layout-header{
+	padding:0 20px;
+}
+.ant-table-thead tr th{
+	text-align: center !important;
+	font-weight: 600;
+	background:#fff !important;
+	height:48px;
+	font-size:12px;
+}
+.ant-table-tbody tr td{
+	text-align: center !important;
+	height:48px;
+	font-size:12px;
+	color:#333 !important;
+}
+.ant-table-tbody tr:nth-child(even){
+	background:#FAFAFA;
+}
+.ant-table-tbody tr:nth-child(odd){
+	background:#FFF;
+}
+.ant-row-flex{
+	margin-bottom: 14px !important;
+}
+.ant-card{
+	margin-bottom:20px;
+	position:relative;
+	min-height: 100px;
+}
+.ant-card-head-title{
+	font-size:12px;
+	color:#9a9a9a;
+	font-weight: 600;
+}
+.ant-card-extra{
+	font-size:12px;
+}
+.ant-card-extra{
+	padding:8px 0;
+}
+.ant-card-head{
+	height:34px;
+	background: #fff;
+}
+.ant-upload-text{
+	margin-top:20px;
+	color:#9a9a9a;
+}
+.ant-table{
+	font-family: "微软雅黑" !important;
+}
+.ant-confirm-body .ant-confirm-content{
+	font-size:12px;
+}
+.ant-table-placeholder{
+	font-size:12px;
+}
+.ant-breadcrumb > span:last-child{
+	color: rgba(0, 0, 0, 0.45);
+}
+.ant-list{
+	font-size:12px;
+}
+.ant-card-body{
+	padding:16px;
+}
